@@ -1,0 +1,47 @@
+﻿<Window x:Class="TestTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="ID:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="ID" Grid.Row="0" Grid.Column="1" Margin="5" IsEnabled="False"/>
+        <TextBlock Text="ФИО:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="FIOTextBox" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <TextBlock Text="Дата рождения:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+        <DatePicker x:Name="BirthDatePicker" Grid.Row="2" Grid.Column="1" Margin="5"/>
+        <TextBlock Text="Описание:" Grid.Row="3" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="DescriptionTextBox" Grid.Row="3" Grid.Column="1" Margin="5"/>
+        <TextBlock Text="Отдел:" Grid.Row="4" Grid.Column="0" Margin="5"/>
+        <ComboBox x:Name="DepartmentComboBox" Grid.Row="4" Grid.Column="1" Margin="5"/>
+        <TextBlock Text="Руководитель:" Grid.Row="5" Grid.Column="0" Margin="5"/>
+        <ComboBox x:Name="ManagerComboBox" Grid.Row="5" Grid.Column="1" Margin="5"/>
+        <TextBlock Text="Является руководителем:" Grid.Row="6" Grid.Column="0" Margin="5"/>
+        <CheckBox x:Name="IsManagerCheckBox" Grid.Row="6" Grid.Column="1" Margin="5"/>
+        <Button x:Name="AddButton" Content="Добавить" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Click="addInfo"/>
+        <Button x:Name="EditButton" Content="Изменить" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Click="editInfo"/>
+        <Button x:Name="Delete" Content="Удалить" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Click="deleteInfo"/>
+        <DataGrid SelectionChanged="Pick_C" x:Name="Info" Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2" Height="214" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

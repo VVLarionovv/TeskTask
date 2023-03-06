@@ -1,0 +1,16 @@
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\bin\Debug\TestTask.exe.config
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\bin\Debug\TestTask.exe
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\bin\Debug\TestTask.pdb
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask.csproj.AssemblyReference.cache
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\MainWindow.g.cs
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\App.g.cs
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask_MarkupCompile.cache
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask_MarkupCompile.lref
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\MainWindow.baml
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask.g.resources
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask.Properties.Resources.resources
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask.csproj.GenerateResource.cache
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask.exe
+C:\Users\Fosters PC\source\repos\TestTask\TestTask\obj\Debug\TestTask.pdb
